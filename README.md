@@ -1,9 +1,14 @@
 echo "# learn_gtest" >> README.md
+# Setup github repository
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/stugit/learn_gtest.git
 git push -u origin master
+git user.name "stugit"
+git user.email "karwoo.tang@gmail.com"
+
+# Create googletest lib: libgtest.a
 # compile gtest-all.o
 g++ -isystem ${GTEST_DIR}/include -I${GTEST_DIR} -pthread -c ${GTEST_DIR}/src/gtest-all.c                                 c
 
