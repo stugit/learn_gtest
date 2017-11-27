@@ -22,7 +22,7 @@ struct BankAccount
 TEST(AccountTest, BankAccountStartsEmpty)
 {
 	BankAccount account;
-	EXPECT_EQ(0, account->balance);
+	EXPECT_EQ(0, account.balance);
 }
 
 int main(int argc, char* argv[]) {
