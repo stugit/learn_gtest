@@ -1,0 +1,11 @@
+CMakeCache.txt
+CMakeFiles/
+CTestConfig.cmake
+CTestTestfile.cmake
+DartConfiguration.tcl
+Makefile
+cmake_install.cmake
+gtest-all.o
+libgtest.a
+my_tests
+test.o
